@@ -1,5 +1,5 @@
-import { graphql } from '../../graphql';
-import type { GraphQLResolveInfo, GraphQLObjectType } from '../../graphql';
+import { graphql } from 'graphql';
+import type { GraphQLResolveInfo, GraphQLObjectType } from 'graphql';
 import { getProjectionFromAST, extendByFieldProjection } from '../projection';
 import { schemaComposer } from '../..';
 

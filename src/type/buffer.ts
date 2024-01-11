@@ -1,4 +1,4 @@
-import { GraphQLScalarType, GraphQLError, Kind } from '../graphql';
+import { GraphQLScalarType, GraphQLError, Kind } from 'graphql';
 
 export default new GraphQLScalarType<Buffer, string>({
   name: 'Buffer',

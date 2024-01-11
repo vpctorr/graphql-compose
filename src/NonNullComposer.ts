@@ -1,4 +1,4 @@
-import { GraphQLNonNull } from './graphql';
+import { GraphQLNonNull } from 'graphql';
 import { isNamedTypeComposer, AnyTypeComposer, NamedTypeComposer } from './utils/typeHelpers';
 import { ListComposer } from './ListComposer';
 import type { SchemaComposer } from './SchemaComposer';

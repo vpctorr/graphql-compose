@@ -57,7 +57,7 @@ import {
   GraphQLResolveInfo,
   SchemaExtensionNode,
   GraphQLScalarTypeConfig,
-} from './graphql';
+} from 'graphql';
 import {
   printSchemaComposer,
   SchemaPrinterOptions,

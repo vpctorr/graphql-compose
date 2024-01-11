@@ -1,4 +1,4 @@
-import { GraphQLObjectType, GraphQLInputObjectType, GraphQLInterfaceType } from './graphql';
+import { GraphQLObjectType, GraphQLInputObjectType, GraphQLInterfaceType } from 'graphql';
 import type {
   GraphQLFieldConfig,
   GraphQLFieldConfigMap,
@@ -9,7 +9,7 @@ import type {
   GraphQLFieldResolver,
   FieldDefinitionNode,
   InputValueDefinitionNode,
-} from './graphql';
+} from 'graphql';
 import { InputTypeComposer } from './InputTypeComposer';
 import { UnionTypeComposer } from './UnionTypeComposer';
 import type { TypeAsString, TypeDefinitionString } from './TypeMapper';

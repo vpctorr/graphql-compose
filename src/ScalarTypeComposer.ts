@@ -1,11 +1,11 @@
-import { GraphQLScalarType, valueFromASTUntyped } from './graphql';
+import { GraphQLScalarType, valueFromASTUntyped } from 'graphql';
 import { isObject, isString } from './utils/is';
 import type {
   GraphQLScalarTypeConfig,
   GraphQLScalarSerializer,
   GraphQLScalarValueParser,
   GraphQLScalarLiteralParser,
-} from './graphql';
+} from 'graphql';
 import type { TypeAsString } from './TypeMapper';
 import { SchemaComposer } from './SchemaComposer';
 import { ListComposer } from './ListComposer';

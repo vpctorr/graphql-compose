@@ -26,7 +26,7 @@ import type {
   EnumTypeDefinitionNode,
   FieldDefinitionNode,
   InputObjectTypeDefinitionNode,
-} from '../graphql';
+} from 'graphql';
 import type { InputTypeComposerFieldConfigMap } from '../InputTypeComposer';
 import type { EnumTypeComposerValueConfigMap } from '../EnumTypeComposer';
 import {

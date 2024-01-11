@@ -1,6 +1,6 @@
 // copied from https://github.com/taion/graphql-type-json
 
-import { graphql, GraphQLObjectType, GraphQLSchema } from '../../graphql';
+import { graphql, GraphQLObjectType, GraphQLSchema } from 'graphql';
 import { GraphQLJSON } from '..';
 import { dedent, schemaComposer, graphqlVersion } from '../../';
 

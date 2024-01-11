@@ -1,4 +1,4 @@
-import * as graphql from './graphql';
+import * as graphql from 'graphql';
 import { SchemaComposer } from './SchemaComposer';
 
 export { graphql };

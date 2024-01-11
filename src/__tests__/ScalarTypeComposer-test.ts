@@ -1,5 +1,5 @@
 import { schemaComposer, SchemaComposer } from '..';
-import { GraphQLScalarType } from '../graphql';
+import { GraphQLScalarType } from 'graphql';
 import { ScalarTypeComposer } from '../ScalarTypeComposer';
 import { NonNullComposer } from '../NonNullComposer';
 import { ListComposer } from '../ListComposer';

@@ -1,4 +1,4 @@
-import { GraphQLInterfaceType, GraphQLObjectType } from './graphql';
+import { GraphQLInterfaceType, GraphQLObjectType } from 'graphql';
 import { isObject, isString, isFunction } from './utils/is';
 import { resolveMaybeThunk, inspect, mapEachKey } from './utils/misc';
 import { ObjectTypeComposer } from './ObjectTypeComposer';
@@ -10,7 +10,7 @@ import type {
   GraphQLInputType,
   GraphQLResolveInfo,
   GraphQLTypeResolver,
-} from './graphql';
+} from 'graphql';
 import { InputTypeComposer } from './InputTypeComposer';
 import { UnionTypeComposer } from './UnionTypeComposer';
 import { EnumTypeComposer } from './EnumTypeComposer';

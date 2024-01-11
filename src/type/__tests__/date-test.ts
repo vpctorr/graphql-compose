@@ -1,6 +1,6 @@
 // copied from https://github.com/taion/graphql-type-json
 
-import { Kind } from '../../graphql';
+import { Kind } from 'graphql';
 
 import GraphQLDate from '../date';
 

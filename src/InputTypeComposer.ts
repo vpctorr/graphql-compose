@@ -1,4 +1,4 @@
-import { GraphQLInputObjectType } from './graphql';
+import { GraphQLInputObjectType } from 'graphql';
 import { resolveMaybeThunk, upperFirst, inspect, mapEachKey } from './utils/misc';
 import { isObject, isFunction, isString } from './utils/is';
 import { typeByPath, TypeInPath } from './utils/typeByPath';
@@ -20,7 +20,7 @@ import type {
   GraphQLInputFieldConfigMap,
   GraphQLInputType,
   InputValueDefinitionNode,
-} from './graphql';
+} from 'graphql';
 import { graphqlVersion } from './utils/graphqlVersion';
 import { defineInputFieldMap, convertInputFieldMapToConfig } from './utils/configToDefine';
 import {

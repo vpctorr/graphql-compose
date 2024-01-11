@@ -4,7 +4,7 @@ import {
   GraphQLString,
   GraphQLList,
   GraphQLInt,
-} from '../../graphql';
+} from 'graphql';
 import { NonNullComposer, schemaComposer as sc } from '../..';
 import { ObjectTypeComposer } from '../../ObjectTypeComposer';
 import { InputTypeComposer } from '../../InputTypeComposer';

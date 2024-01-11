@@ -1,7 +1,7 @@
-import { GraphQLEnumType } from './graphql';
+import { GraphQLEnumType } from 'graphql';
 import { isObject, isString } from './utils/is';
 import { inspect, mapEachKey, keyMap } from './utils/misc';
-import type { EnumValueDefinitionNode } from './graphql';
+import type { EnumValueDefinitionNode } from 'graphql';
 import { defineEnumValues, convertEnumValuesToConfig } from './utils/configToDefine';
 import { graphqlVersion } from './utils/graphqlVersion';
 import type { TypeAsString } from './TypeMapper';

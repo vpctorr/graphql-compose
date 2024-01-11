@@ -12,7 +12,7 @@ import {
   GraphQLEnumType,
   GraphQLScalarType,
   GraphQLInterfaceType,
-} from '../graphql';
+} from 'graphql';
 import { schemaComposer as sc } from '..';
 import { SchemaComposer } from '../SchemaComposer';
 import { graphqlVersion } from '../utils/graphqlVersion';

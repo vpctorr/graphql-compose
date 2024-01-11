@@ -3,7 +3,7 @@ import {
   GraphQLObjectType,
   GraphQLResolveInfo,
   GraphQLTypeResolver,
-} from './graphql';
+} from 'graphql';
 import { isObject, isString, isFunction } from './utils/is';
 import { inspect } from './utils/misc';
 import {

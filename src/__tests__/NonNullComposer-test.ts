@@ -1,5 +1,5 @@
 import { schemaComposer, SchemaComposer } from '..';
-import { GraphQLNonNull } from '../graphql';
+import { GraphQLNonNull } from 'graphql';
 import { NonNullComposer } from '../NonNullComposer';
 import { ListComposer } from '../ListComposer';
 import { ObjectTypeComposer } from '../ObjectTypeComposer';

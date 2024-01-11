@@ -5,7 +5,7 @@ import {
   GraphQLString,
   graphql,
   GraphQLScalarTypeConfig,
-} from '../../graphql';
+} from 'graphql';
 
 describe('check how works parse methods in GraphQLScalarType', () => {
   let typeConfig: GraphQLScalarTypeConfig<any, any>;

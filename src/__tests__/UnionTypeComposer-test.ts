@@ -1,4 +1,4 @@
-import { GraphQLInt, GraphQLObjectType, GraphQLUnionType, graphql } from '../graphql';
+import { GraphQLInt, GraphQLObjectType, GraphQLUnionType, graphql } from 'graphql';
 import { schemaComposer, SchemaComposer } from '..';
 import { UnionTypeComposer } from '../UnionTypeComposer';
 import { ObjectTypeComposer } from '../ObjectTypeComposer';

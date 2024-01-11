@@ -1,4 +1,4 @@
-import { GraphQLInt, GraphQLString } from '../graphql';
+import { GraphQLInt, GraphQLString } from 'graphql';
 import { schemaComposer } from '..';
 
 schemaComposer.getOrCreateOTC('User', (tc) =>

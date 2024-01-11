@@ -2,7 +2,7 @@ import { schemaComposer, SchemaComposer } from '..';
 import { EnumTypeComposer } from '../EnumTypeComposer';
 import { NonNullComposer } from '../NonNullComposer';
 import { ListComposer } from '../ListComposer';
-import { GraphQLEnumType, graphql } from '../graphql';
+import { GraphQLEnumType, graphql } from 'graphql';
 import { graphqlVersion } from '../utils/graphqlVersion';
 import { dedent } from '../utils/dedent';
 import { GraphQLEnumValue } from 'graphql';

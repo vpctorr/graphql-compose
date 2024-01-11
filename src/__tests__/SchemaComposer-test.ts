@@ -20,7 +20,7 @@ import {
   GraphQLNonNull,
   GraphQLList,
   GraphQLSchema,
-} from '../graphql';
+} from 'graphql';
 import { dedent } from '../utils/dedent';
 import { graphqlVersion } from '../utils/graphqlVersion';
 

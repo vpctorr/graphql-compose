@@ -7,14 +7,14 @@ import type {
   InlineFragmentNode,
   GraphQLResolveInfo,
   GraphQLOutputType,
-} from '../graphql';
+} from 'graphql';
 import {
   Kind,
   GraphQLObjectType,
   GraphQLList,
   GraphQLNonNull,
   GraphQLInterfaceType,
-} from '../graphql';
+} from 'graphql';
 import { deepmerge } from './deepmerge';
 
 const { FIELD, FRAGMENT_SPREAD, INLINE_FRAGMENT } = Kind;

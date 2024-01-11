@@ -51,6 +51,7 @@ function sortGetPositionOfType(tc: NamedTypeComposer<any>, rootTypes: string[] =
     case tc instanceof InputTypeComposer:
       return [7];
   }
+  //@ts-ignore
   throw new Error(`Unknown kind of type ${tc.getTypeName()}`);
 }
 

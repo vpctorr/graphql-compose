@@ -2,7 +2,7 @@ import {
   GraphQLJSON as _GraphQLJSON,
   GraphQLJSONObject as _GraphQLJSONObject,
 } from 'graphql-type-json';
-import type { GraphQLScalarType } from '../graphql';
+import type { GraphQLScalarType } from 'graphql';
 import GraphQLDate from './date';
 import GraphQLBuffer from './buffer';
 

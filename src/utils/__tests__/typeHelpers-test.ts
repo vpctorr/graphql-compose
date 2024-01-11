@@ -11,7 +11,7 @@ import {
   isUnionTypeDefinitionString,
   unwrapTypeNameString,
 } from '../typeHelpers';
-import { GraphQLObjectType, GraphQLInputObjectType } from '../../graphql';
+import { GraphQLObjectType, GraphQLInputObjectType } from 'graphql';
 import { schemaComposer as sc } from '../..';
 
 describe('typeHelpers', () => {

@@ -29,8 +29,8 @@ import type {
   ValueNode,
   GraphQLInputType,
   NameNode,
-} from '../graphql';
-import { GraphQLDirective, astFromValue } from '../graphql';
+} from 'graphql';
+import { GraphQLDirective, astFromValue } from 'graphql';
 import type { ObjectTypeComposer } from '../ObjectTypeComposer';
 import type { InputTypeComposer } from '../InputTypeComposer';
 import type { EnumTypeComposer } from '../EnumTypeComposer';

@@ -1,12 +1,12 @@
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 
-import { isType, isNamedType, parse, isOutputType, isInputType } from '../graphql';
+import { isType, isNamedType, parse, isOutputType, isInputType } from 'graphql';
 import type {
   GraphQLType,
   GraphQLNamedType,
   GraphQLOutputType,
   GraphQLInputType,
-} from '../graphql';
+} from 'graphql';
 import { isFunction } from './is';
 import { inspect } from './misc';
 import { dedent } from './dedent';

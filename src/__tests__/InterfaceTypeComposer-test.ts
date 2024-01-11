@@ -9,7 +9,7 @@ import {
   GraphQLInputObjectType,
   GraphQLObjectType,
   graphql,
-} from '../graphql';
+} from 'graphql';
 import { schemaComposer, SchemaComposer } from '..';
 import { InterfaceTypeComposer } from '../InterfaceTypeComposer';
 import { InputTypeComposer } from '../InputTypeComposer';

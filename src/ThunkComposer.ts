@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 
 import { isFunction } from './utils/is';
-import type { GraphQLType } from './graphql';
+import type { GraphQLType } from 'graphql';
 import type { NamedTypeComposer } from './utils/typeHelpers';
 import { ListComposer } from './ListComposer';
 import { NonNullComposer } from './NonNullComposer';

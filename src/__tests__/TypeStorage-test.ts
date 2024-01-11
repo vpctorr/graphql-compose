@@ -1,5 +1,5 @@
 import { TypeStorage } from '../TypeStorage';
-import { GraphQLString, GraphQLObjectType } from '../graphql';
+import { GraphQLString, GraphQLObjectType } from 'graphql';
 import { ObjectTypeComposer } from '../ObjectTypeComposer';
 import { InputTypeComposer } from '../InputTypeComposer';
 import { ScalarTypeComposer } from '../ScalarTypeComposer';

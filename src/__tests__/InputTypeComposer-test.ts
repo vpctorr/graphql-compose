@@ -5,7 +5,7 @@ import {
   GraphQLNonNull,
   GraphQLInt,
   GraphQLBoolean,
-} from '../graphql';
+} from 'graphql';
 import { schemaComposer, SchemaComposer } from '..';
 import { InputTypeComposer } from '../InputTypeComposer';
 import { ScalarTypeComposer } from '../ScalarTypeComposer';

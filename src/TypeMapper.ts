@@ -52,8 +52,8 @@ import {
   GraphQLUnionType,
   valueFromAST,
   GraphQLFieldConfigArgumentMap,
-} from './graphql';
-import type { GraphQLType, GraphQLInputType } from './graphql';
+} from 'graphql';
+import type { GraphQLType, GraphQLInputType } from 'graphql';
 import { GraphQLDate, GraphQLBuffer, GraphQLJSON, GraphQLJSONObject } from './type';
 
 import type {

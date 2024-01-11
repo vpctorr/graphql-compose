@@ -11,7 +11,7 @@ import {
   GraphQLEnumType,
   GraphQLList,
   GraphQLInputType,
-} from '../graphql';
+} from 'graphql';
 import schemaComposer from '../__mocks__/schemaComposer';
 import { Resolver } from '../Resolver';
 import { ObjectTypeComposer } from '../ObjectTypeComposer';

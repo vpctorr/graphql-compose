@@ -8,7 +8,7 @@ import type {
   GraphQLInputType,
   GraphQLResolveInfo,
   GraphQLFieldResolver,
-} from './graphql';
+} from 'graphql';
 import { ObjectTypeComposer } from './ObjectTypeComposer';
 import type {
   ObjectTypeComposerArgumentConfigMap,

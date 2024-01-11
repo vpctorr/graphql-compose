@@ -1,4 +1,4 @@
-import { GraphQLString, GraphQLInt, GraphQLFloat } from '../../graphql';
+import { GraphQLString, GraphQLInt, GraphQLFloat } from 'graphql';
 import { sc } from '../..';
 import { ObjectTypeComposer } from '../../ObjectTypeComposer';
 import { InputTypeComposer } from '../../InputTypeComposer';
